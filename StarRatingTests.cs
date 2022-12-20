@@ -19,7 +19,7 @@ public class StarRatingTests
     [InlineData("-246466", "empty empty empty empty empty")]
     [InlineData("-79228162514264337593543950335", "empty empty empty empty empty")]
     [InlineData("1231231279228162514264337593543950335", "empty empty empty empty empty")]
-    public void RateStar(string rating, string expected)
+    public void RateStarTests(string rating, string expected)
     {
         var result = StarRate(rating);
 
